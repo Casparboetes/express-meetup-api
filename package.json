@@ -1,0 +1,20 @@
+{
+  "name": "meetup",
+  "version": "1.0.0",
+  "description": "Meetup RSVP Stream Clone",
+  "main": "index.js",
+  "author": "Caspar",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --inspect."
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "meetup": "^0.1.0-SNAPSHOT",
+    "socket.io": "^2.0.4",
+    "socket.io-client": "^2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.12"
+  }
+}
